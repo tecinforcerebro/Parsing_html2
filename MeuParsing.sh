@@ -3,6 +3,7 @@
 # Parsing_html2 - Shell Linux
 # Programa busca e resolve hosts ativos em determinado site
 # Criado por: TecinforCerebro - Caleb Silva Gomes - Programador iniciante
+# Aprendizado Desec Security - Professor Ricardo Longatto
 # Versão 1.0
 
 if [ "$1" == "" ];
