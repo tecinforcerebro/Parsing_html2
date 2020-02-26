@@ -1,6 +1,6 @@
 !/bin/bash
 
-# Parsing_html2
+# Parsing_html2 - Shell Linux
 # Programa busca e resolve hosts ativos em determinado site
 # criado por: TecinforCerebro - Desec Security - Ricardo Longatto
 # Versão 1.0
