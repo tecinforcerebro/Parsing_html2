@@ -15,7 +15,7 @@ then
         echo -e "\033[1;33m|-> ./DesecParsing.sh www.alvo.com.br <-|\033[m"
         echo -e "\033[1;33m#########################################\033[m"
 exit
-# Segunda condição - Busca e filtra hosts ativos e grava em um arquivo.
+# Segunda condição - Busca e filtra hosts ativos e grava em um arquivo
 else
         echo -e "\033[1;34m####################################################################\033[m"
         echo -e "\033[1;31m->                      BUSCANDO HOSTS                         <-\033[m"
@@ -31,7 +31,7 @@ fi
         echo -e "\033[1;31m->                         RESOLVENDO HOSTS                        <-\033[m"
 echo -e "\033[1;34m#####################################################################\033[m"
 
-# Exibe hosts
+# Exibe hosts e resultados finais
 for url in $(cat $1filterhosts.txt);
 do host $url | grep "has address";
 
